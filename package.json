@@ -1,0 +1,26 @@
+{
+  "name": "seneca-mesh-learning",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers babel-register"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "babel-preset-env": "^1.7.0",
+    "babel-register": "^6.26.0",
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0",
+    "rxjs": "^6.3.3",
+    "rxjs-compat": "^6.3.3",
+    "seneca": "3.3.0",
+    "seneca-balance-client": "0.6.0",
+    "seneca-mesh": "0.10.0",
+    "seneca-transport": "^2.3.0",
+    "uuid": "^3.3.2",
+    "uuid4": "^1.1.4"
+  }
+ }
